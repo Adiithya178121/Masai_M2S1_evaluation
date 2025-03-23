@@ -6,6 +6,6 @@ scoreManager.add_score("Charlie", 90);
 scoreManager.add_score("David", 58);
 
 console.log(scoreManager.get_scores());
-console.log(scoreManager.get_sortedScores());
-console.log(scoreManager.get_filteredScores(60));
+console.log(scoreManager.get_sortedscores());
+console.log(scoreManager.get_filteredscores(60));
 console.log(scoreManager.get_averagescore());
