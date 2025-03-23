@@ -13,7 +13,7 @@ const create_ScoreManager = () => {
         get_filteredscores (threshold){
             return scores.filter(student => student.score > threshold);
 },
-        get_avgeragescore() {
+        get_avgeragescores() {
             if(scores.length === 0) { 
                 return 0;
                 const total = scores.reduce ((sum , student) => sum + sutdent,0)
