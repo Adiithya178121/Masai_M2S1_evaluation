@@ -1,7 +1,7 @@
 const create_ScoreManager = () => {
     const scores = [];
     return {
-        adds_score(name , score) {
+        add_score(name , score) {
             scores.push({name,score});
         },
         get_scores(){
